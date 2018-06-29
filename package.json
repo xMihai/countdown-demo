@@ -1,0 +1,62 @@
+{
+  "name": "countdown",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "@hocs/safe-timers": "^0.3.0",
+    "@hocs/with-lifecycle": "^0.5.0",
+    "i18next": "^11.3.3",
+    "i18next-browser-languagedetector": "^2.2.0",
+    "i18next-xhr-backend": "^1.5.1",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-i18next": "^7.7.0",
+    "recompose": "^0.27.1",
+    "redux": "^4.0.0",
+    "styled-components": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.1.1",
+    "@types/lodash": "^4.14.110",
+    "@types/react": "^16.4.1",
+    "@types/react-dom": "^16.0.6",
+    "@types/react-i18next": "^7.6.1",
+    "@types/recompose": "^0.26.1",
+    "copy-webpack-plugin": "^4.5.1",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^23.1.0",
+    "prettier": "^1.13.5",
+    "ts-jest": "^22.4.6",
+    "ts-loader": "^4.4.1",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.2",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack --mode production",
+    "test": "jest"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"
+    },
+    "globals": {
+      "ts-jest": {
+        "tsConfigFile": "tsconfig.json"
+      }
+    },
+    "testMatch": [
+      "**/__tests__/*.+(ts|tsx|js)"
+    ]
+  }
+}

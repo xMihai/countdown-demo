@@ -1,0 +1,18 @@
+{
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "sync.quietSync": false,
+  "git.enableSmartCommit": true,
+  "javascript.validate.enable": false,
+  "files.insertFinalNewline": true,
+  "prettier.trailingComma": "es5",
+  "prettier.printWidth": 80,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.eslintIntegration": false,
+  "tslint.ignoreDefinitionFiles": false,
+  "tslint.autoFixOnSave": false,
+  "tslint.enable": true,
+  "tslint.jsEnable": false,
+  "typescript.autoImportSuggestions.enabled": false
+}

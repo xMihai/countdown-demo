@@ -1,0 +1,9 @@
+{
+  "time": {
+    "seconds": "secunde",
+    "minutes": "minute",
+    "hours": "ore",
+    "days": "zile",
+    "months": "luni"
+  }
+}

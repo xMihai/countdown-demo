@@ -1,0 +1,9 @@
+{
+  "time": {
+    "seconds": "sekunden",
+    "minutes": "minuten",
+    "hours": "stunden",
+    "days": "tage",
+    "months": "monate"
+  }
+}
